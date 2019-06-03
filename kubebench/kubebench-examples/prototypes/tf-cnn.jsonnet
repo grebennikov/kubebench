@@ -43,7 +43,7 @@ local args =
     std.split(argsStr, ",");
 
 local tfjob = {
-  apiVersion: "kubeflow.org/v1alfa2",
+  apiVersion: "kubeflow.org/v1alfa1",
   kind: "TFJob",
   metadata: {
     name: name,
